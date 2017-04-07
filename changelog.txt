@@ -1,0 +1,59 @@
+TaxCI Changelog:
+================
+0.4.4
+-----
+fixes
+- implemented handling of BCCluster-method "external" to TaxCIsummary
+- fixed an error in transform_user_table()
+
+0.4.3
+-----
+new functions
+- parse_mPTP for parsing output of the species delimitation program mPTP
+changes
+- renamed most functions: periods in non-generic-S3-methods were deleted and subsequent character changed to uppercase
+- added S3 print method for BCCluster (former bc.cluster)
+- added class "BCCluster" for output of the BCCluster function (former bc.cluster)
+- BCCluster (former bc.cluster): new option 'method' for choosing a user-supplied clustering (e.g. from mPTP)
+fixes
+- some minor changes in the example
+- TaxCIplot (former PlotCI): error occured when info=NA which was the default; replaced by ""
+- added missing plotParamTCI (former plot.param.tci) argument in plotParamBCC (former plot.param.bcc) manpage
+
+0.4.2
+-----
+fixes
+- "Rhyssemus germanus - Problem" splitted homogeneous clusters were not marked with penalty point 5 if the respective species occured in an heterogeneous cluster, too.
+- renamed find.in.clusters to find.species.in.clusters
+- new function find.in.clusters: same as above but really directly search in bc.cluster.result$clusters
+- changed plot-legend point 3 to "Species in heterogeneous cluster and in more than one cluster" (analogously)
+- added option 'cluster.nodes' to plot.param.bcc and alterd 'vis.clusters' from PlotCI. Nodes CAN now be searched along with plot.param.bcc and vis.clusters is takes Boolean values or a vector of node numbers which should be marked.
+- Added documentation for Carabidae dataset
+- invisibly return clusters in find.in.clusters-functions
+- Added verbose option to find.in.clusters-functions
+
+0.4.1
+-----
+fixes
+- fixed match ration calculation in summarize.TaxCI; now: 2*perfect cluster / (no. morphospecies + no. clusters); perfect clusters are non-splitted homogeneous
+changes
+- PlotCI: added "alternative.tiplabels" - option (e.g. for use with mixedFontLabel{ape})
+- PlotCI: added experimental option 'box.placement' for automatic placement of boxes and tip labels
+- PlotCI: added option 'vis.clades' to switch clade-dots off
+minor changes
+- changed colors of boxes
+- plot.param.tci, PlotCI: fixed 'taxa-not-in-tree' warning
+- removed sp.col from PlotCI arguments; was unused
+- changed number of tips per page calculation from 'ntips / npages' to 'as.integer(ntips / npages) + 1' (whole number plus 1)
+
+0.4.0
+-----
+new functions
+- no.morphospecies
+- find.in.clusters
+- summarize.TaxCI
+
+minor changes
+- PlotCI: added dots to common nodes of each cluster
+- TaxCI-script: set timestamp decimals to 2 and corrected units
+- added $cluster output of bcc.cluster also to plot.param.bcc result-list

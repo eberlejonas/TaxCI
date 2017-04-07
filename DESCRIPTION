@@ -1,0 +1,11 @@
+Package: TaxCI
+Type: Package
+Title: Calculate the Consistency Index and the Retention Index for taxonomic data
+Version: 0.4.4
+Date: 2016-12-13
+Author: Jonas Eberle
+Maintainer: Jonas Eberle <eberle.jonas@gmail.com>
+Depends: ape, spider, doSNOW
+Description: Functions for calculating the Consistency Index and the Retention Index along phylogenetic trees. Especially intended for use with axonomic data on different levels.
+License: AGPL-3
+Encoding: UTF-8
