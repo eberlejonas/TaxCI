@@ -3,7 +3,7 @@
 \alias{TaxCI}
 \docType{package}
 \title{
-Tools for checking the integrity of barcoding data
+Tools for checking the integrity of DNA-barcode data
 }
 \description{
 The package contains tools for checking the quality of barcoding data prior to submission. It is intended for highlighting for instance contaminations or misidentifications in very large trees in two steps:\cr
