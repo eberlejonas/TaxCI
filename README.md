@@ -11,7 +11,8 @@ Prerequisites:
 	* ape
 	* spider
 	* doSNOW
-	Use `install.packages("ape")`, `install.packages("spider")`, and `install.packages("doSNOW")` in the R console to install them from the CRAN repository.
+
+Use `install.packages("ape")`, `install.packages("spider")`, and `install.packages("doSNOW")` in the R console to install them from the CRAN repository.
 
 An easy way to install the TaxCI package from GitHub is using the devtools-package:
 ```R
