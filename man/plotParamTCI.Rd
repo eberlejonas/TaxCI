@@ -34,8 +34,7 @@ A list with the following elements:
 Jonas Eberle
 }
 \seealso{
-\code{\link{tci}}
-}
-\examples{
-# See \code{\link{TaxCI}} for example.
+See \code{\link{TaxCI}} for example.
+
+Related: \code{\link{tci}}
 }

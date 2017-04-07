@@ -18,7 +18,7 @@ Alignment of Cox1 barcode sequences, the corresponding maximum likelihood tree, 
 \source{
 Rulik et al. 2015. Using taxonomic consistency for semi-automatized preprocessing to ensure high quality Barcode data submissions -- a case study on German beetles.
 }
-\examples{
-# See \code{\link{TaxCI}} for example.
+\seealso{
+See \code{\link{TaxCI}} for example.
 }
 \keyword{datasets}

@@ -42,8 +42,7 @@ Kluge, A.G, Farris, J.S. (1969). Quantitative phyletics and the evolution of anu
 Jonas Eberle
 }
 \seealso{
-\code{\link{MPR}}
-}
-\examples{
-# See \code{\link{TaxCI}} for example.
+See \code{\link{TaxCI}} for example.
+
+Related: \code{\link{MPR}}
 }

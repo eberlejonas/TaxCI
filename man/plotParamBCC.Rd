@@ -53,8 +53,7 @@ A list containing the following elements:
 Jonas Eberle
 }
 \seealso{
-\code{\link{BCCluster}}
-}
-\examples{
-# See \code{\link{TaxCI}} for example.
+See \code{\link{TaxCI}} for example.
+
+Related: \code{\link{BCCluster}}
 }

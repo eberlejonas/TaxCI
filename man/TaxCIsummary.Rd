@@ -50,6 +50,6 @@ A data frame with the following entries:
 \author{
 Jonas Eberle
 }
-\examples{
-# see \code{\link{TaxCI-package}} for an example
+\seealso{
+See \code{\link{TaxCI}} for example.
 }

@@ -15,7 +15,7 @@ The package contains tools for checking the quality of barcoding data prior to s
 Package: \tab TaxCI\cr
 Type: \tab Package\cr
 Version: \tab 0.4.4\cr
-Date: \tab 2015-12-13\cr
+Date: \tab 2016-12-13\cr
 License: \tab AGPL-3\cr
 }
 Main function: \code{\link{tci}}, \code{\link{BCCluster}}

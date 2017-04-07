@@ -5,6 +5,7 @@ TaxCI Changelog:
 fixes
 - implemented handling of BCCluster-method "external" to TaxCIsummary
 - fixed an error in transform_user_table()
+- some minor issues in the man pages
 
 0.4.3
 -----

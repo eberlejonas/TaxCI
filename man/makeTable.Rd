@@ -33,8 +33,7 @@ A data.frame with relevent specimens as rownames or a tab-delimited text file.
 Jonas Eberle
 }
 \seealso{
-\code{\link{tci}}, \code{\link{BCCluster}}, \code{\link{plotParamTCI}}, \code{\link{plotParamBCC}}
-}
-\examples{
-# See \code{\link{TaxCI}} for example.
+See \code{\link{TaxCI}} for example.
+
+Related: \code{\link{tci}}, \code{\link{BCCluster}}, \code{\link{plotParamTCI}}, \code{\link{plotParamBCC}}
 }

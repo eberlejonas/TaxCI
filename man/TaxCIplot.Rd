@@ -39,8 +39,7 @@ Jonas Eberle
 Plotting of \code{\link{tci}}-results alone is not tested.
 }
 \seealso{
-\code{\link{plot.phylo}}\{ape\}, \code{\link{tci}}, \code{\link{BCCluster}}, \code{\link{plotParamTCI}}, \code{\link{plotParamBCC}}
-}
-\examples{
-# See \code{\link{TaxCI}} for example.
+See \code{\link{TaxCI}} for example.
+
+Related: \code{\link{plot.phylo}}\{ape\}, \code{\link{tci}}, \code{\link{BCCluster}}, \code{\link{plotParamTCI}}, \code{\link{plotParamBCC}}
 }

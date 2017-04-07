@@ -58,8 +58,7 @@ A list with the following elements:
 Jonas Eberle
 }
 \seealso{
-\code{\link{localMinima}}, \code{\link{tclust}}, \code{\link{read.dna}}, \code{\link{dist.dna}}
-}
-\examples{
-# See \code{\link{TaxCI}} for example.
+See \code{\link{TaxCI}} for example.
+
+Related: \code{\link{localMinima}}, \code{\link{tclust}}, \code{\link{read.dna}}, \code{\link{dist.dna}}
 }
