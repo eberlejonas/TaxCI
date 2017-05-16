@@ -12,7 +12,7 @@ Prerequisites:
 	* spider
 	* doSNOW
 
-Use `install.packages("ape")`, `install.packages("spider")`, and `install.packages("doSNOW")` in the R console to install them from the CRAN repository.
+Use `install.packages("ape")`, `install.packages("spider")`, and `install.packages("doSNOW")` in the R console to install them from the CRAN repository. Due to the rapid development of R, some packages might not always be available from CRAN. In this case you can try to install them from R-Forge (`install.packages("spider", repos="http://R-Forge.R-project.org")`) or from GitHub (instructions equivalent to TaxCI-installation below).
 
 An easy way to install the TaxCI package from GitHub is using the devtools-package:
 ```R
@@ -34,7 +34,7 @@ At the end of the help page you will find an example of a workflow for a complet
 
 Use `help(function)` to see detailed information on how to use a specific function (e.g., `help(tci)`).
 
-A more detailed tutorial R-script is available as supporting information to the article below (Rulik et al. under review).
+A more detailed tutorial R-script is available as supporting information to the article below (Rulik et al. in press).
 
 ## Reference
-Björn Rulik, Jonas Eberle, Laura von der Mark, Jana Thormann, Manfred Jung, Frank Köhler, Wolfgang Apfel, Andreas Weigel, Andreas Kopetz, Jonas Köhler, Frank Fritzlar, Matthias Hartmann, Karl Hadulla, Joachim Schmidt, Thomas Hörren, Detlef Krebs, Florian Theves, Ute Eulitz, André Skale, Dirk Rohwedder, Andreas Kleeberg, Jonas Astrin, Matthias Geiger, Wolfgang Wägele, Peter Grobe, Dirk Ahrens (under review) *Using taxonomic consistency with semi-automated data pre-processing for high quality DNA barcodes*.
+Björn Rulik, Jonas Eberle, Laura von der Mark, Jana Thormann, Manfred Jung, Frank Köhler, Wolfgang Apfel, Andreas Weigel, Andreas Kopetz, Jonas Köhler, Frank Fritzlar, Matthias Hartmann, Karl Hadulla, Joachim Schmidt, Thomas Hörren, Detlef Krebs, Florian Theves, Ute Eulitz, André Skale, Dirk Rohwedder, Andreas Kleeberg, Jonas Astrin, Matthias Geiger, Wolfgang Wägele, Peter Grobe, Dirk Ahrens (in press) *Using taxonomic consistency with semi-automated data pre-processing for high quality DNA barcodes*.
