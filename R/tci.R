@@ -9,6 +9,8 @@ tci <- function (tree, x, level, reconstruction="lower", num_cores=1) {
     tree <- multi2di(tree)
   if (!all(tree$tip.label %in% rownames(x)))
     stop("not all tree$tip.label are in taxonomic information table rownames")
+  if (!is.data.frame(x))
+    x <- as.data.frame(x)
   x <- x[tree$tip.label,]
   # add an artificial outgroup to the tree...
   outgroup.phy <- list(edge=matrix(c(2,1),1,2), tip.label="outgroup", edge.length=1, Nnode=1); class(outgroup.phy)<-"phylo"

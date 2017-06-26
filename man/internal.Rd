@@ -2,6 +2,7 @@
 \alias{CI}
 \alias{Dummies}
 \alias{transform_user_table}
+\alias{is.wholenumber}
 \title{
 Internal TaxCI-functions
 }
@@ -9,6 +10,7 @@ Internal TaxCI-functions
 \code{CI}: Calculates consistency index and retention index of traits along a phylogeny (internally used by TaxCI).\cr
 \code{Dummies}: Create dummy variables.\cr
 \code{transform_user_table}
+\code{is.wholenumber}
 }
 \usage{
 CI(tree, x, outgroup, reconstruction = "lower")
@@ -16,6 +18,8 @@ CI(tree, x, outgroup, reconstruction = "lower")
 Dummies(tree, outgroup)
 
 transform_user_table(data, x)
+
+is.wholenumber(x)
 }
 \arguments{
   \item{tree}{
@@ -25,6 +29,8 @@ transform_user_table(data, x)
   \code{CI}: A vector of integers.
   
   \code{transform_user_table}: A metadata table. row.names() must correspond to data[,1].
+  
+  \code{an R-object}
 }
   \item{outgroup}{
   An integer or a character string giving the tip of 'tree' used as outgroup
