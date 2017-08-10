@@ -38,4 +38,4 @@ Use `help(function)` to see detailed information on how to use a specific functi
 A more detailed tutorial R-script is available as supporting information to the article below (Rulik et al. in press).
 
 ## Reference
-B Rulik, J Eberle, L von der Mark, J Thormann, M Jung, F Köhler, W Apfel, A Weigel, A Kopetz, J Köhler, F Fritzlar, M Hartmann, K Hadulla, J Schmidt, T Hörren, D Krebs, F Theves, U Eulitz, A Skale, D Rohwedder, A Kleeberg, J Astrin, M Geiger, W Wägele, P Grobe, D Ahrens (in press) Using taxonomic consistency with semi-automated data pre-processing for high quality DNA barcodes. *Methods in Ecology and Evolution*. doi: 10.1111/2041-210X.12824
+B Rulik, J Eberle, L von der Mark, J Thormann, M Jung, F Köhler, W Apfel, A Weigel, A Kopetz, J Köhler, F Fritzlar, M Hartmann, K Hadulla, J Schmidt, T Hörren, D Krebs, F Theves, U Eulitz, A Skale, D Rohwedder, A Kleeberg, J Astrin, M Geiger, W Wägele, P Grobe, D Ahrens (2017) Using taxonomic consistency with semi-automated data pre-processing for high quality DNA barcodes. *Methods in Ecology and Evolution*. doi: 10.1111/2041-210X.12824
