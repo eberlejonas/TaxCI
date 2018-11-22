@@ -81,28 +81,28 @@ TaxCIplot <- function (tree, x, plotParamTCI.result, plotParamBCC.result=NA,
     
     # TaxCIplot marks
     tiplabels(tip=plotParamTCI.result$tips[-plotParamTCI.result$i], adj=adj, pch=22, lwd=.5, bg="white", col="grey84")
-    tiplabels(tip=plotParamTCI.result$i,                              adj=adj, pch=22, lwd=.5, bg="#FF5555", col="grey84")
+    tiplabels(tip=plotParamTCI.result$i,                            adj=adj, pch=22, lwd=.5, bg="#FF5555", col="grey84")
     
     if (typeof(plotParamBCC.result) == "list") {
       # plot cl1 marks
       s <- step
       tiplabels(tip=plotParamBCC.result$tips[-plotParamBCC.result$i], adj=adj+s, pch=22, lwd=.5, bg="white", col="grey84")
-      tiplabels(tip=plotParamBCC.result$i,                              adj=adj+s, pch=22, lwd=.5, bg="#FF5555", col="grey84")
+      tiplabels(tip=plotParamBCC.result$i,                            adj=adj+s, pch=22, lwd=.5, bg="#FF5555", col="grey84")
       s <- s+step
       
       # plot cl2 marks
       tiplabels(tip=plotParamBCC.result$tips[-plotParamBCC.result$j], adj=adj+s, pch=22, lwd=.5, bg="white", col="grey84")
-      tiplabels(tip=plotParamBCC.result$j,                              adj=adj+s, pch=22, lwd=.5, bg="#5CACEE", col="grey84")
+      tiplabels(tip=plotParamBCC.result$j,                            adj=adj+s, pch=22, lwd=.5, bg="#5CACEE", col="grey84")
       s <- s+step
       
       # plot cl3 marks
       tiplabels(tip=plotParamBCC.result$tips[-plotParamBCC.result$k], adj=adj+s, pch=22, lwd=.5, bg="white", col="grey84")
-      tiplabels(tip=plotParamBCC.result$k,                              adj=adj+s, pch=22, lwd=.5, bg="#5CACEE", col="grey84")
+      tiplabels(tip=plotParamBCC.result$k,                            adj=adj+s, pch=22, lwd=.5, bg="#5CACEE", col="grey84")
       s <- s+step
       
       # plot cl4 marks
       tiplabels(tip=plotParamBCC.result$tips[-plotParamBCC.result$l], adj=adj+s, pch=22, lwd=.5, bg="white", col="grey84")
-      tiplabels(tip=plotParamBCC.result$l,                              adj=adj+s, pch=22, lwd=.5, bg="#B3EE3A", col="grey84")
+      tiplabels(tip=plotParamBCC.result$l,                            adj=adj+s, pch=22, lwd=.5, bg="#B3EE3A", col="grey84")
     }
     
     # print analyses informations

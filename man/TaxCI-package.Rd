@@ -7,16 +7,16 @@ Tools for checking the integrity of DNA-barcode data
 }
 \description{
 The package contains tools for checking the quality of barcoding data prior to submission. It is intended for highlighting for instance contaminations or misidentifications in very large trees in two steps:\cr
-1. By reconstructing the Consistency Index (Kluge and Farris 1969) and the Retention Index (Farris 1989) along phylogenetic trees. (Usable with taxonomic data on different levels.)\cr
+1. By reconstructing the Consistency Index (Kluge and Farris 1969) along phylogenetic trees. (Usable with taxonomic data on different levels.)\cr
 2. By evaluating individual composition of barcoding-clusters. (On species level.)
 }
 \details{
 \tabular{ll}{
 Package: \tab TaxCI\cr
 Type: \tab Package\cr
-Version: \tab 0.4.4\cr
-Date: \tab 2016-12-13\cr
-License: \tab AGPL-3\cr
+Version: \tab 0.5-0\cr
+Date: \tab 2018-11-22\cr
+License: \tab GPL-3\cr
 }
 Main function: \code{\link{tci}}, \code{\link{BCCluster}}
 }
@@ -24,11 +24,9 @@ Main function: \code{\link{tci}}, \code{\link{BCCluster}}
 Jonas Eberle \email{eberle.jonas@gmail.com}
 }
 \references{
-Farris, J.S. (1989). The retention index and rescaled consistency index. Cladistics 5: 417-419.
-
 Kluge, A.G, Farris, J.S. (1969). Quantitative phyletics and the evolution of anurans. Syst. Zool. 18: 1-32.
 }
-\keyword{CI, Consistency Index, RI, Retention Index, Taxonomic Consistency, barcode, cluster, data quality}
+\keyword{CI, Consistency Index, Taxonomic Consistency, barcode, cluster, data quality}
 \examples{
 library(TaxCI)
 
@@ -45,7 +43,7 @@ head(Carabidae$metadata)
 #=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=#
 
 # taxonomic consistency analysis
-ci <- tci(Carabidae$tree, Carabidae$metadata, level="binomial", num_cores=1)
+ci <- tci(Carabidae$tree, Carabidae$metadata, level="binomial")
 
 # cluster analysis
 cl <- BCCluster(Carabidae$alignment, Carabidae$metadata, sp.col="binomial")

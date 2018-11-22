@@ -2,7 +2,7 @@ BCCluster <- function(data, x, method="spider", sp.col="sp", distmodel="K80", pa
   if (!is.data.frame(x))
     x <- as.data.frame(x)
   if (is.wholenumber(sp.col)) {
-    if (!(1 < sp.col & sp.col < ncol(x))) stop("BCCluster: sp.col must be in 1:", ncol(x), " or the name of a column of 'x'")
+    if (!(1 <= sp.col & sp.col <= ncol(x))) stop("BCCluster: sp.col must be in 1:", ncol(x), " or the name of a column of 'x'")
   } else {
     if (!sp.col %in% colnames(x)) stop("BCCluster: 'sp.col' is not in column headers of 'x'")
   }

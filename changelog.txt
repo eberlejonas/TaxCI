@@ -1,12 +1,18 @@
 TaxCI Changelog:
 ================
+0.5-0
+-----
+- tci() now uses phangorn::CI instead of own R-functions to calculate consistency indices. This makes it substantially faster.
+- retention indices are no longer offered
+- parallel computing is no longer needed. doSNOW is removed from dependencies
+- fixed bug when integer was given as sp.col-argument in BCCluster
+
 0.4.5
 -----
 - tci() & BCCluster(): implemented check that x is a data.frame / convert it into one
 - BCCluster(): implemented check that 'sp.col' is in names of 'x' if it is not integer
 - BCCluster(): implemented check that DNA-data is a matrix and convert into one (as.matrix) if not
 - added internal function to check for whole numbers (see ?is.integer) and fixed previous check in transform_user_table()
-ToDo:
 
 0.4.4
 -----
