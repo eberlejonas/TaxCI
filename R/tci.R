@@ -4,7 +4,7 @@
 tci <- function (tree, x, level) {
   if (!inherits(tree, "phylo")) 
     stop("object \"tree\" is not of class \"phylo\"")
-  if (!is.binary.tree(tree)) 
+  if (!is.binary(tree)) 
     tree <- multi2di(tree)
   if (!all(tree$tip.label %in% rownames(x)))
     stop("not all tree$tip.label are in taxonomic information table rownames")
