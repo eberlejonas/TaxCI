@@ -1,5 +1,9 @@
 TaxCI Changelog:
 ================
+0.5-1
+-----
+-harmonize with RRPhylo {ape}
+
 0.5-0
 -----
 - tci() now uses phangorn::CI instead of own R-functions to calculate consistency indices. This makes it substantially faster.
