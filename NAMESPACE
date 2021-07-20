@@ -1,5 +1,5 @@
 exportPattern("^[[:alpha:]]+")
-importFrom(ape, dist.dna, getMRCA, plot.phylo, nodelabels, tiplabels, is.binary.tree, multi2di)
+importFrom(ape, dist.dna, getMRCA, plot.phylo, nodelabels, tiplabels, is.binary, multi2di)
 importFrom(phangorn, CI, phyDat)
 importFrom(spider, localMinima, tclust)
 importFrom("graphics", "mtext", "par", "strwidth")
