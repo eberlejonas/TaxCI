@@ -2,7 +2,7 @@ TaxCI Changelog:
 ================
 0.5-1
 -----
--harmonize with RRPhylo {ape}
+- class removed from imported ape-function is.binary.tree
 
 0.5-0
 -----
