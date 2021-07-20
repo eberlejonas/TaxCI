@@ -1,8 +1,8 @@
 Package: TaxCI
 Type: Package
 Title: Calculate the Consistency Index and the Retention Index for taxonomic data
-Version: 0.5-0
-Date: 2018-11-22
+Version: 0.5-1
+Date: 2021-05-10
 Authors@R:  c(
     person("Jonas", "Eberle", email = "eberle.jonas@gmail.com", role = c("aut", "cre")),
     person("Björn", "Rulik", role = "aut"),
